@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- TODOS OS LINKS DE FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- configuração básica HTML-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habits</title>
+
+    <!-- linkando css com html -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- cabeçalho da minha página -->
+    <header>
+      <!-- logo - habits-->
+      <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" id="img-logo"/>
+      
+      <!-- importando ícone de "+" e criando uma classe para ele-->
+      <button class="register-day">
+        <img
+          src="./assets/plus.svg"
+          alt="Sinal de mais roxo"
+          id="signal-plus"
+        />
+
+        <div class="button-cell">Registrar o meu dia</div>
+      </button>
+    </header>
+
+    <!-- criando um formulário com a tag FORM -->
+    <form>
+      <!-- icones para os hábitos -->
+      <div class="habits">
+        <div class="habit" data-name="run">🏃</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="food">🍎</div>
+        <div class="habit" data-name="journal">📕</div>
+        <div class="habit" data-name="takePills">💊</div>
+        <div class="habit" data-name="sports">⚽</div>
+        <div class="habit" data-name="hobby">😎</div>
+      </div>
+
+      <!--caixa para todos os dias da semana -->
+      <div class="days"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
