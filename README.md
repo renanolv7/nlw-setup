@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto Habits foi desenvolvido afim de auxiliar e rastrear os hábitos pessoais.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- [Visite o projeto online](https://renanolv7.github.io/nlw-setup/)
 
 <br>
 
